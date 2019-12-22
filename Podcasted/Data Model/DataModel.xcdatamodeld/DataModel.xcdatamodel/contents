@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DownloadedEpisode" representedClassName="DownloadedEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeDescription" optional="YES" attributeType="String"/>
+        <attribute name="episodeIconURL" optional="YES" attributeType="String"/>
+        <attribute name="episodeID" optional="YES" attributeType="String"/>
+        <attribute name="episodeLength" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeMarkedAsPlayed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="episodeName" optional="YES" attributeType="String"/>
+        <attribute name="episodeOrderPosition" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodePathLocal" optional="YES" attributeType="String"/>
+        <attribute name="episodePubDateMS" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeTimePlayed" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeURL" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FinishedEpisode" representedClassName="FinishedEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeDescription" optional="YES" attributeType="String"/>
+        <attribute name="episodeIconURL" optional="YES" attributeType="String"/>
+        <attribute name="episodeID" optional="YES" attributeType="String"/>
+        <attribute name="episodeLength" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeMarkedAsPlayed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="episodeName" optional="YES" attributeType="String"/>
+        <attribute name="episodeOrderPosition" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodePubDateMS" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeTimePlayed" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeURL" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="QueueEpisode" representedClassName="QueueEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeDescription" attributeType="String" defaultValueString=""/>
+        <attribute name="episodeIconURL" optional="YES" attributeType="String"/>
+        <attribute name="episodeID" attributeType="String" defaultValueString=""/>
+        <attribute name="episodeLength" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeMarkedAsPlayed" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="episodeName" attributeType="String" defaultValueString=""/>
+        <attribute name="episodeOrderPosition" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodePubDateMS" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeTimePlayed" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="episodeURL" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="SavedPodcast" representedClassName=".SavedPodcast" syncable="YES" codeGenerationType="class">
+        <attribute name="podcastDescription" attributeType="String" defaultValueString=""/>
+        <attribute name="podcastIconURL" optional="YES" attributeType="String"/>
+        <attribute name="podcastID" attributeType="String" defaultValueString=""/>
+        <attribute name="podcastName" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="FinishedEpisode" positionX="-45" positionY="81" width="128" height="193"/>
+        <element name="QueueEpisode" positionX="-54" positionY="18" width="128" height="193"/>
+        <element name="SavedPodcast" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="DownloadedEpisode" positionX="-54" positionY="108" width="128" height="208"/>
+    </elements>
+</model>

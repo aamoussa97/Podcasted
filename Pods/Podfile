@@ -1,0 +1,11 @@
+platform :ios, '13'
+
+target 'Podcasted' do
+  use_frameworks!  
+  pod 'Alamofire', '~> 5.0.0-rc.2'
+  pod 'AlamofireImage', '~> 4.0.0-beta.5'
+  pod 'SwiftyJSON', '~> 5.0.0'
+  pod 'SPAlert'
+  pod 'SDWebImage', '~> 5.1.1'
+  pod 'HTMLString'
+end
