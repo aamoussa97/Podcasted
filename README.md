@@ -1,5 +1,5 @@
 # Podcasted
-Created an iOS Podcast application, written in Swift, as exam project in course [62417 Mobile Application Development with Swift](https://kurser.dtu.dk/course/62417)
+Created an iOS Podcast application, written in Swift, as exam project in course [62417 Mobile Application Development with Swift](https://kurser.dtu.dk/course/62417).
 
 ## What I Learned
 * Core Data (Data.Model, fetchRequests, Context, PersistentContainer - CRUD)
