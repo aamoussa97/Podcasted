@@ -1,5 +1,5 @@
 # Podcasted
-Created an iOS Podcast application, written in Swift, as exam project in course [62417 Mobile Application Development with Swift](https://kurser.dtu.dk/course/62417). The application uses the [Listen Notes API](https://www.listennotes.com/), where as the API Key has been stripped from the project.
+Created an iOS Podcast application, written in Swift, as exam project in course [62417 Mobile Application Development with Swift](https://kurser.dtu.dk/course/62417). The application uses the [Listen Notes API](https://www.listennotes.com/api/), where as the API Key has been stripped from the project.
 
 ## What I Learned
 * Core Data (Data.Model, fetchRequests, Context, PersistentContainer - CRUD)
